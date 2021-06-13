@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/nickchamel/parcel-transformer-pug-precompile.git"
   },
+  "engines": {
+    "parcel": "2.x"
+  },
   "keywords": [
     "parcel",
     "pug",
