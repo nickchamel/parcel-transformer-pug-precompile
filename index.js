@@ -1,11 +1,13 @@
-const path = require('path');
-const Transformer = require('@parcel/plugin').Transformer;
-const pug = require('pug');
+// @flow
 
-module.exports = new Transformer({
+import path from 'path'
+import { Transformer } from '@parcel/plugin';
+import pug from 'pug'
+import type { Transformer as ITransformer } from '@parcel/types';
+
+const transformer = new Transformer(({
   async transform({ asset }) {
     const content = await asset.getCode();
-
     const sourceString = pug.compileClient(content, {
       compileDebug: false,
       basedir: path.dirname(asset.filePath),
@@ -20,4 +22,6 @@ module.exports = new Transformer({
 
     return [asset];
   },
-});
+}: ITransformer));
+
+export default (transformer: ITransformer);
