@@ -1,3 +1,4 @@
+const path = require('path');
 const Transformer = require('@parcel/plugin').Transformer;
 const pug = require('pug');
 
