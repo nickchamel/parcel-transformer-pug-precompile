@@ -1,0 +1,21 @@
+{
+  "name": "parcel-transformer-pug-precompile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickchamel/parcel-transformer-pug-precompile.git"
+  },
+  "keywords": [
+    "parcel",
+    "pug",
+    "precompile"
+  ],
+  "author": "Nick Chamel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickchamel/parcel-transformer-pug-precompile/issues"
+  },
+  "homepage": "https://github.com/nickchamel/parcel-transformer-pug-precompile#readme"
+}
