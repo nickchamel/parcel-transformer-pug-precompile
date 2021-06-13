@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/nickchamel/parcel-transformer-pug-precompile#readme",
   "dependencies": {
-    "parcel": "^2.0.0-beta.2",
+    "@parcel/plugin": "^2.0.0-alpha.3",
     "pug": "^3.0.2"
   }
 }

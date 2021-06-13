@@ -1,8 +1,7 @@
-import { Transformer } from '@parcel/plugin';
-import pug from 'pug';
-import path from "path";
+const Transformer = require('@parcel/plugin').Transformer;
+const pug = require('pug');
 
-export default new Transformer({
+module.exports = new Transformer({
   async transform({ asset }) {
     const content = await asset.getCode();
 
